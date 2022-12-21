@@ -9,8 +9,4 @@ export class classNameForFunctions {
     static visitGoogle(){
         cy.visit("https://www.google.com")
     }
-
-    static clickAcceptCookies(){
-
-    }
 }

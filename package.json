@@ -11,7 +11,7 @@
     "project-one-all": ". src/testsApi/.env && cucumber-js -p project-one",
     "project-one-test": ". src/testsApi/.env && cucumber-js -p project-one --tags @test",
     "project-one-test-parallel": ". src/testsApi/.env && cucumber-js --parallel 5 -p project-one --tags @test",
-    "cypress-test-and-repirt": "npx cypress run && npm run ui-merge-report && npm run ui-generate-html ",
+    "cypress-test-and-report": "npx cypress run && npm run ui-merge-report && npm run ui-generate-html ",
     "ui-merge-report": "mochawesome-merge  cypress/results/json/*.json > cypress/results/output-report.json",
     "ui-generate-html": "marge cypress/results/output-report.json -o docs/cypress-html",
     "tools-format": "prettier --write src",

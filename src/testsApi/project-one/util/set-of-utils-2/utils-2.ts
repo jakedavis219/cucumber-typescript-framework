@@ -1,9 +1,10 @@
 
 export default class ClassName {
     static async functionName(params: interFaceName){
-        return "this is a function in a class"
-    }
+        const value = params.value1
 
+        return `this is a function in a class and this is just set up to pass linting for now ${value}`
+    }
 }
 
 export interface interFaceName {
