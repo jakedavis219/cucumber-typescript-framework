@@ -5,5 +5,3 @@ Feature:  Feature Name
     Given I do something
     When I do something else
     Then something should happen
-
-
